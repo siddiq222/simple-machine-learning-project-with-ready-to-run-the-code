@@ -1,0 +1,24 @@
+Step1: Creating an Environment
+
+conda create -n <desired_name> python=3.12.11
+
+Step2: Activating the Environment
+
+conda activate <desired_name>
+
+Step3: Installing required dependencies
+
+pip install -r requirements.txt
+
+Step4: Generating the Data
+
+python data_gen.py --num_samples <desired_num> --file_path "data/data.json"
+
+Step5: Training and Saving the Model
+
+python train.py --data_path "data/data.json" --model_save_path "weights/model.pkl"
+
+Step6: Running Inference on the model
+
+python test.py --model_path "weights/model.pkl"
+

@@ -1,0 +1,36 @@
+1.Awareness among people how easy building ML aglorithm is 
+
+2.Ready to run python scripts ----> user run the code in their systems without any issues
+
+3.Environment --> a place where a code is executed without any errors
+
+Andriod apps ---> does not work in IOS
+IOS apps -------> does not work in Andriod
+
+Code -----------> Windows,Ubuntu,Linux,Mac
+
+Github --------->
+
+
+Company --------> Project ---> Team / Employee 
+
+Research on what has to be done
+Approach1 : write everything from scratch (Ample amout of time)
+Approach2 : Using existing code he/she will to modify it according to the problem statement user is working on
+# already exsiting codes
+
+# Gitrepostories
+# 3 or 4
+
+# datagenerate.py -----> python datagenerate.py --num_samples <desired_num_samples>
+# train.py ------------> python train.py --data_path <path_to_the_data>
+# test.py -------------> python test.py (code to ask the user input) ---> right swipe or not
+
+
+
+creating environment :conda create -n ml python=3.12.11
+
+activating the environment : conda activate ml
+
+install the required dependencies : pip install -r folder/requirements.txt
+
